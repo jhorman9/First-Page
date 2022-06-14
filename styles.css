@@ -295,7 +295,7 @@ span{
         width: 100%;
     }
     .menu{
-        width: 80%;
+        width: 100%;
     }
 
     .menu li{
@@ -323,7 +323,7 @@ span{
     .info-content{
         font-size: 20px;
         display: grid;
-        grid-column: 2/10;
+        grid-column: 2/12;
         grid-row: 2/9;
         
 
@@ -349,7 +349,7 @@ span{
 /*---------ABOUT ME------------*/
 
     .about{
-        width: 95%;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(10,1fr);
     }
@@ -361,7 +361,7 @@ span{
     .about-info{
         display: grid;
         width: 100%;
-        grid-column: 2/9;
+        grid-column: 2/10;
     }
 
     .about-info h2{
@@ -387,7 +387,6 @@ span{
 
 
 }
-
 
 
 
