@@ -430,9 +430,9 @@ span{
     }
 
     .main img{
-        width: 300px;
+        width: 200px;
         justify-content: center;
-        max-width: 350px;
+        max-width: 250px;
         justify-content: center;
         
     }
@@ -447,11 +447,14 @@ span{
         justify-content: center;
     }
 
+    .main h1{
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
     .main h1,p{
         display: flex;
         justify-content: center;
         text-align: center;
-        flex-direction: column;
 
     }
 
@@ -503,11 +506,9 @@ span{
     .card1 .card_body{
         display: flex;
         flex-direction: column;
-        
+
     }
 }
-
-
 
 
 
