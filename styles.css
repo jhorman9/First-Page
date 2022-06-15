@@ -431,14 +431,13 @@ span{
 
     .main img{
         width: 200px;
-        justify-content: center;
-        max-width: 250px;
-        justify-content: center;
+        margin-left: 50px;        max-width: 250px;
         
     }
 
     .main .info-content{
         margin-left: 20px;
+        width: 400px;
 
     }
 
@@ -460,6 +459,10 @@ span{
 
     .main p{
         text-align: justify;
+    }
+
+    .info-content span{
+        margin: auto 7px;
     }
 
 /*--------ABOUT ME--------*/
@@ -489,13 +492,15 @@ span{
 
 /*-----mi portafolio------*/
 
-    .portfolio{
-        width: 100%;
-    }
-
     .portfolio .container{
-        width: 100%;
-    }
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
 
 /*-----mis contactos-----*/
 
@@ -508,9 +513,11 @@ span{
         flex-direction: column;
 
     }
+
+    .card .card_img{
+        width: 10%;
+    }
 }
-
-
 
 
 
