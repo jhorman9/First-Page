@@ -411,6 +411,102 @@ span{
 
 }
 
+@media (min-width: 689px) and (max-width: 1000px){
+
+    *{
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+        display: grid;
+        
+    }
+
+    .main img{
+        width: 300px;
+        justify-content: center;
+        max-width: 350px;
+        justify-content: center;
+        
+    }
+
+    .main .info-content{
+        margin-left: 20px;
+
+    }
+
+    .main a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main h1,p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    .main p{
+        text-align: justify;
+    }
+
+/*--------ABOUT ME--------*/
+
+    .about{
+        width: 100%;
+    }
+
+    .about .about-info{
+        width: 400px;
+        gap: 1px;
+    }
+
+    .about-info h2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .about button{
+        width: 100%;
+    }
+
+/*-----mi portafolio------*/
+
+    .portfolio{
+        width: 100%;
+    }
+
+    .portfolio .container{
+        width: 100%;
+    }
+
+/*-----mis contactos-----*/
+
+    .containertres{
+        width: 100%;
+    }
+
+    .card1 .card_body{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
 
 
 
