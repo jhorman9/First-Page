@@ -304,6 +304,10 @@ span{
 
     }
 
+    li:nth-child(2){
+        text-align: center;
+    }
+
     header{
         width: 100%;
     }
@@ -408,6 +412,9 @@ span{
         flex-direction: column;
     }
 
+    footer .ultimo-pie{ 
+        font-size: 10px;
+    }
 
 }
 
@@ -471,6 +478,13 @@ span{
         width: 100%;
     }
 
+    .about img{
+
+        height: 300px;
+        max-width: 300px;
+        min-width: 200px;
+    }
+
     .about .about-info{
         width: 400px;
         gap: 1px;
@@ -502,6 +516,7 @@ span{
     
 }
 
+
 /*-----mis contactos-----*/
 
     .containertres{
@@ -513,8 +528,100 @@ span{
         flex-direction: column;
 
     }
+
+    footer{
+        width: 100%;
+    }
+
+    footer .ultimo-pie{
+        font-size: 12px;
+    }
 }
 
+@media (min-width: 280px) and (max-width: 383px){
+
+    header .menu{
+        width: 100%;
+        align-items: center;
+    }
+
+    .wrapper li{
+        font-size: 8px;
+    }
+    
+    .info-content h1{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info-content p{
+        font-size: 8px;
+        padding: 10px 0;
+    }
+
+    .info-content .download-cv{
+        width: 80px;
+        height: 25px;
+        text-align: center;
+        font-size: 6px;
+
+    }
+
+    /*--------aboutme--------*/
+
+    .about{
+        width: 100%;
+    }
+
+    .about .texto_uno{
+        font-size: 8px;
+        
+    }
+
+    .about-info .boton_read{
+        width: 100%px;
+        height: 25px;
+        font-size: 6px;
+    }
+
+    .about-info h2{
+        font-size: 15px;
+    }
+
+    /*----------portfolio------------*/
+
+    .portfolio{
+        width: 100%;
+    }
+
+    .portfolio_headings h2{
+        font-size: 18px;
+    }
+
+    .card h2{
+
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+
+        
+    }
+
+    .card .projects-details{
+
+        text-align: center;
+        font-size: 10px;
+    }
+
+
+
+    footer .ultimo-pie{ 
+        font-size: 10px;
+    }
+
+
+}
 
 
 
