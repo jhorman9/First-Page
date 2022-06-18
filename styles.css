@@ -390,7 +390,7 @@ footer{
         width: 100%;
         grid-column: 1/-1;
         box-sizing: content-box;
-        margin: 0;
+        margin: 0 0 25px 0;
         padding: 0;
     }
 
