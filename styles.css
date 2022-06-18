@@ -282,6 +282,25 @@ span{
     color: white;
 }
 
+footer{
+    background-color: white;
+}
+
+.titulo-footer{
+    height: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0),aqua,black);
+}
+
+.titulo-footer h2{
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
 @media (max-width: 688px){
 
     *{
