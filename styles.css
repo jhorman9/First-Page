@@ -369,7 +369,16 @@ span{
     .about-info{
         display: grid;
         width: 100%;
-        grid-column: 2/10;
+        grid-column: 1/-1;
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-info button{
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
     .about-info h2{
@@ -412,9 +421,15 @@ span{
         flex-direction: column;
     }
 
-    footer .ultimo-pie{ 
-        font-size: 10px;
+    footer{
+        width: 100%;
     }
+
+    .titulo-footer h2{
+        font-size: 15px;
+    }
+
+
 
 }
 
@@ -438,7 +453,8 @@ span{
 
     .main img{
         width: 200px;
-        margin-left: 50px;        max-width: 250px;
+        margin-left: 50px;        
+        max-width: 250px;
         
     }
 
@@ -531,11 +547,13 @@ span{
 
     footer{
         width: 100%;
+        box-sizing: border-box;
     }
 
-    footer .ultimo-pie{
+    .titulo-footer h2{
         font-size: 12px;
     }
+    
 }
 
 @media (min-width: 280px) and (max-width: 383px){
@@ -614,12 +632,14 @@ span{
         font-size: 10px;
     }
 
-
-
-    footer .ultimo-pie{ 
-        font-size: 10px;
+    footer{
+        width: 100%;
     }
 
+    .titulo-footer h2{
+        font-size: 8px;
+    }
+    
 
 }
 
