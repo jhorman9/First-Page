@@ -291,11 +291,11 @@ footer{
     text-align: center;
     height: auto;
     width: 100%;
-    background: linear-gradient(rgb(0, 0, 0),aqua,black);
+    background: linear-gradient(black,blue,black);
 }
 
 .titulo-footer h2{
-    color: #000000;
+    color: white;
     font-size: 20px;
     padding: 10px;
 }
