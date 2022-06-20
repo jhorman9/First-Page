@@ -379,6 +379,13 @@ footer{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(10,1fr);
+        background: linear-gradient(to left, black, white, black);
+    }
+
+    .about-info:hover{
+        background-image: url(aboutmee.png);
+        background-size: cover;
+        height: 80%;
     }
 
     .about img{
@@ -388,9 +395,11 @@ footer{
     .about-info{
         display: grid;
         width: 100%;
-        grid-column: 1/-1;
+        grid-column: 2/10;
+        box-sizing: content-box;
         margin: 0 0 25px 0;
         padding: 0;
+        backdrop-filter: blur(1000px);
     }
 
     .about-info button{
@@ -402,6 +411,11 @@ footer{
     .about-info h2{
         text-align: center;
         margin-bottom: 25px;
+        color: rgba(204, 200, 200, 0.842);
+    }
+
+    .about-info p{
+        color: rgba(204, 200, 200, 0.842);
     }
 
     .about-info .divider{
@@ -410,6 +424,7 @@ footer{
 
     .about-info .boton_read{
         margin-top: 20px;
+
     }
 
 /*----------portafolio---------*/
@@ -694,3 +709,8 @@ footer{
     a:hover{
     color: bisque;
     text-decoration: underline;*/
+
+
+
+
+
