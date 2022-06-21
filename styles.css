@@ -385,7 +385,6 @@ footer{
     .about-info:hover{
         background-image: url(aboutmee.png);
         background-size: cover;
-        height: 80%;
     }
 
     .about img{
@@ -411,11 +410,11 @@ footer{
     .about-info h2{
         text-align: center;
         margin-bottom: 25px;
-        color: rgba(204, 200, 200, 0.842);
+        color: black;
     }
 
     .about-info p{
-        color: rgba(204, 200, 200, 0.842);
+        color: black;
     }
 
     .about-info .divider{
