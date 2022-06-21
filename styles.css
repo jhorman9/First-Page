@@ -16,7 +16,10 @@ body{
     height: 100vh;
     background-color: black;
     color: white;
+}
 
+.navbar:hover{
+    background: linear-gradient(to right, rgba(0, 160, 160, 0.493), rgba(153, 205, 50, 0.829), rgba(0, 0, 0, 0.705), rgba(0, 160, 160, 0.493));
 }
 
 .brand span{
@@ -70,12 +73,17 @@ body{
     align-items: center;
 }
 
+
 .main img{
     max-width: 600px;
     border: 7px solid aqua;
     padding: 0px;
     margin: 30px;
-    z-index: 1;
+    transition: 100%;
+    transition-timing-function: ease-in;;
+    transform: translate(10%);
+    transition-duration: 5s;
+    transition-property: all;
 }
 
 h1{
@@ -379,7 +387,7 @@ footer{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(10,1fr);
-        background: linear-gradient(to left, black, white, black);
+        background: linear-gradient(to left, rgba(14, 0, 139, 0.425), rgba(255, 255, 255, 0.11), rgba(13, 3, 150, 0.171));
     }
 
     .about-info:hover{
@@ -410,11 +418,11 @@ footer{
     .about-info h2{
         text-align: center;
         margin-bottom: 25px;
-        color: black;
+        color: rgba(0, 0, 0, 0.842);
     }
 
     .about-info p{
-        color: black;
+        color: rgba(0, 0, 0, 0.842);
     }
 
     .about-info .divider{
@@ -708,8 +716,3 @@ footer{
     a:hover{
     color: bisque;
     text-decoration: underline;*/
-
-
-
-
-
